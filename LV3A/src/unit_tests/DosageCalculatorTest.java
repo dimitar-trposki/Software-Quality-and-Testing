@@ -48,4 +48,5 @@ public class DosageCalculatorTest {
         double dosage = DosageCalculator.calculateDosage(age, weight, isHighRisk, hasAllergy);
         assertEquals(expected, dosage, 0.001);
     }
+    
 }
